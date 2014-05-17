@@ -1,2 +1,2 @@
-require 'simple'
+require './simple.rb'
 run Simple

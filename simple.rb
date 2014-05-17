@@ -8,6 +8,9 @@ Camping.goes :Simple
 
 module Simple
   set :views, File.dirname(__FILE__) + '/views'
+
+  # otherwise tilt 2.0 won't work with rackup
+  set :dynamic_templates, true
 end
 
 module Simple::Controllers
