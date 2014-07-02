@@ -19,6 +19,12 @@ module Simple::Controllers
       render :index
     end
   end
+
+  class MindenJo < R '/moving'
+    def get
+      render :moving
+    end
+  end
 end
 
 module Simple::Models
